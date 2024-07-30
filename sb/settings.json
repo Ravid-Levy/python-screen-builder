@@ -24,6 +24,43 @@
     ],
     "widgets": [
         {
+
+            "name": "Image",
+            "class": "DraggableImage",
+            "init": "DraggableImage()",
+            "properties": [
+                {
+                    "name": "name",
+                    "init": "TextInput()"
+                },
+                {
+                    "name": "source",
+                    "init": "TextInput()"
+                },
+                {
+                    "name": "allow_stretch",
+                    "init": "CheckButton()"
+                },
+                {
+                    "name": "keep_ratio",
+                    "init": "CheckButton()"
+                },
+                {
+                    "name": "size_hint",
+                    "init": "TextInput()"
+                },
+                {
+                    "name": "size",
+                    "init": "TextInput()"
+                },
+                {
+                    "name": "pos",
+                    "init": "TextInput()"
+                }
+            ]
+        },
+           {
+
             "name": "Panel",
             "class": "Panel",
             "init": "Panel(background_color = (.4, .4, .4))",
